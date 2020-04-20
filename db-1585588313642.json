@@ -1,5 +1,5 @@
 {
-  "restaurantes": [
+  "restaurants": [
     {
       "id": "bread-bakery",
       "name": "Bread & Bakery",
@@ -370,24 +370,5 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": [
-    {
-      "id": 1
-    },
-    {
-      "id": 2
-    },
-    {
-      "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 6
-    }
-  ]
+  "orders": []
 }
