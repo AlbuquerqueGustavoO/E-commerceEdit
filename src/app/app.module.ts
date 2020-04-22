@@ -23,6 +23,7 @@ import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component'
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { SheredModule } from './shered/shered.model';
 import { SnackbarComponent } from './shered/messages/snackbar/snackbar.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { SnackbarComponent } from './shered/messages/snackbar/snackbar.component
     ReviewsComponent,
     OrderSummaryComponent,
     SnackbarComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
