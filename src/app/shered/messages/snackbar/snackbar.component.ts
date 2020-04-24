@@ -2,11 +2,14 @@ import { Component, OnInit } from '@angular/core';
 
 import { trigger, state, style, transition, animate } from "@angular/animations"
 import { NotificationService } from '../notification.service';
+
 import { Observable } from 'rxjs/Observable'
 
 import 'rxjs/observable/timer'
 import 'rxjs/add/operator/do'
 import 'rxjs/add/operator/switchMap'
+
+
 
 
 @Component({
