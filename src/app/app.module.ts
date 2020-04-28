@@ -25,6 +25,7 @@ import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { SheredModule } from './shered/shered.model';
 import { SnackbarComponent } from './shered/messages/snackbar/snackbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { LoginComponent } from './security/login/login.component';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     OrderSummaryComponent,
     SnackbarComponent,
     NotFoundComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

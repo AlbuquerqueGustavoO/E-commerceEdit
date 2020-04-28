@@ -391,6 +391,26 @@
     },
     {
       "id": 7
+    },
+    {
+      "name": "juliana",
+      "email": "Juliana@gmail.com",
+      "emailConfirmation": "Juliana@gmail.com",
+      "address": "Rua Ceu Azul",
+      "number": "140",
+      "optionalAddress": "111",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 8
     }
   ]
 }

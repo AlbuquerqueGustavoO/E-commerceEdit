@@ -12,6 +12,7 @@ import { RestaurantesService } from "app/restaurantes/restaurantes.service";
 import { OrderService } from "app/order/order.service";
 
 import { NotificationService } from "./messages/notification.service";
+import { LoginService } from '../security/login/login.service'
 
 
 
@@ -24,7 +25,7 @@ export class SheredModule {
     static forRoot(): ModuleWithProviders {
         return {
             ngModule: SheredModule,
-            providers: [ShoppingCartService, RestaurantesService, OrderService, NotificationService]
+            providers: [ShoppingCartService, RestaurantesService, OrderService, NotificationService, LoginService]
         }
     }
 } 
