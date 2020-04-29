@@ -10,8 +10,6 @@ import 'rxjs/add/operator/do'
 import 'rxjs/add/operator/switchMap'
 
 
-
-
 @Component({
   selector: 'mt-snackbar',
   templateUrl: './snackbar.component.html',
@@ -43,8 +41,8 @@ export class SnackbarComponent implements OnInit {
   ngOnInit() {
     this.notificationService.notifier
       .do(message => {
-        this.message = message;
-        this.snackVisibility = 'visible';
+        this.message = message
+        this.snackVisibility = 'visible'
       }).switchMap(message => Observable.timer(3000))
       .subscribe(timer => this.snackVisibility = 'hidden');
   }
