@@ -3,7 +3,6 @@ import { ActivatedRoute } from '@angular/router'
 
 import { RestaurantesService } from '../../restaurantes/restaurantes.service'
 import { Observable } from 'rxjs';
-//import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'mt-reviews',

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { RestaurantesService } from '../../restaurantes/restaurantes.service'
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 
 import { ActivatedRoute } from '@angular/router'
 import { MenuItem } from '../menu-item/menu-item-model'

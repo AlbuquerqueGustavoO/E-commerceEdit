@@ -9,7 +9,7 @@ import { LeaveOrderGuard } from "./leave-order.guard";
 
 
 const ROUTES: Routes = [
-    { path: '', component: OrderComponent, canActivate: [LeaveOrderGuard] }
+    { path: '', component: OrderComponent, canDeactivate: [LeaveOrderGuard] }
 ]
 
 @NgModule({

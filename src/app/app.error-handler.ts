@@ -1,6 +1,6 @@
 import { HttpErrorResponse } from '@angular/common/http'
-import { Observable } from 'rxjs'
-import 'rxjs/add/observable/throw'
+
+//import {throwError} from 'rxjs/operators'
 import { ErrorHandler, Injectable, Injector, NgZone } from '@angular/core'
 
 import { NotificationService } from './shered/messages/notification.service'
